@@ -1,0 +1,101 @@
+<html>
+<head lang="es">
+	<meta charset="utf-8" />
+	<title>La Vid Verdadera Culiacán</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilo2015.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<section id="logo">
+			<a href="#"><img src="img/logo.png"></a>
+		</section>
+		<section id="redes_header">
+			<section id="contenedor_redes">
+				<a href="#"><i class="fa fa-envelope correo"></i><span></span></a>
+      			<a href="#"><i class="fa fa-facebook facebook"></i><span></span></a>
+      			<a href="#"><i class="fa fa-youtube youtube"></i><span></span></a>
+      		</section>
+		</section>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index">INICIO</a></li>
+			<li><a href="contacto" class="activo">CONTATO</a></li>
+			<li><a href="live">EN VIVO</a></li>
+			<li><a href="#">MINISTERIOS</a></li>
+		</ul>
+	</nav>
+	<section class="contenido">
+			<section id="section_header">
+				<h2>Contáctanos</h2>
+			</section>
+		<section id="mapa">
+			<figure id="mapa_holder">
+				<iframe class="borde_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1554219839004!2d-107.42638500000001!3d24.79013099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86bcd08b6222fe6f%3A0x4a50bc8dbe25099c!2sLa+Vid+Verdadera!5e0!3m2!1ses!2smx!4v1411497017395"></iframe>
+			</figure>
+		</section>
+	</section>
+	<section class="contenido">
+		
+		<section id="formulario_contacto">
+			<p>Gracias por visitar nuestro sitio web. Te invitamos a que cualquier duda, pregunta o saludo nos lo hagas llegar desde el siguiente formulario. Dios te bendiga.</p><div id="contactform">
+            <!-- bloque confirmacion de envio oculto  -->
+            <div id="c_information" class="hide">
+                <p></p>
+            </div>
+            <!-- fin bloque confirmacion de envio -->
+             
+            <!-- inicio formulario -->
+            <form id="c_form" name="contact">
+                <div>
+                  <label>
+                    <input name="nombre" id="c_name" type="text" class="c_input" placeholder="Nombre"/>
+                  </label>
+                  <br/>
+                  <label>
+                    <input name="email"  id="c_mail" type="text" class="c_input" placeholder="Email"/>
+                  </label>
+                </div>
+                <label>
+                  <textarea name="mensaje"  id="c_msg" placeholder="Mensaje"></textarea>
+                </label>
+                <img src="captcha.php" />
+                <input type="text" size="12" name="captcha" placeholder="Captcha" />
+                <!-- boton enviar  -->
+                <div id="c_btns">
+                    <input name="send" onclick="cargaSendMail()" type="button" value="Enviar" class="btn-b" id="c_enviar"></input>
+                </div>
+            </form>
+		</section>
+		<section id="informacion_contacto">
+			<figure><i class="fa fa-envelope correo"></i>  hola@lavidculiacan.com</figure>
+			<figure><i class="fa fa-map-marker marcador"></i>  Blvd. Emiliano Zapata bla bla bla</figure>
+			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Flavidculiacan&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=111017645609531" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;" allowTransparency="true"></iframe>
+		</section>
+	</section>
+		<footer>
+			<section id="footer_nav">
+				<section class="contenido">
+					<ul>
+						<li><a href="index">Inicio</a></li>
+						<li><a href="contacto">Contacto</a></li>
+						<li><a href="#">En Vivo</a></li>
+						<li><a href="#">Ministerios</a></li>
+					</ul>
+				<section id="copyright">
+					<h1>La Vid Verdadera Culiacán</h1><p class="copyright">Copyright © 2014 | Desarrollado por <a href="#">Misión dsgn</a></p>
+				</section>
+				</section>
+			</section>
+		</footer>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

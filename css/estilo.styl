@@ -1,0 +1,262 @@
+/*
+El siguiente código fue pre-compilado en stylus,
+ así que para futuras ediciones recomiendo utilizarlo 
+ y ahorrarte tiempo. Sheshevnko | Misión dsgn
+ */
+body
+	font-size 16px
+	width 100%
+header 
+	background #252525
+	margin 0
+	height 70px
+	padding 0
+	#caja-redes
+		background white
+		float right
+		height 70px
+		text-align right
+		overflow hidden
+	#caja-redes:before
+		border-right 50px solid #fff
+		border-top 70px solid transparent
+		content ""
+		position absolute
+		right 100%
+		top 0
+
+	#caja-redes a 
+		text-align center
+	#logo, #columna_2, #columna_3, #columna_4, #caja-redes
+		display inline-block
+		position relative
+		margin 0
+		vertical-align top
+		width 19%
+	#logo
+		height 80px
+		img
+			width 295px
+	#logo:after
+		background white
+	/*#redes_header
+		display inline-block
+		vertical-align top
+		text-align right
+		padding 1.6em 3em 
+		width 45%
+		a
+			color #fff
+			font-size 1em
+			margin .5em
+			-webkit-transition:all .3s ease .3s;
+			-moz-transition:all .3s ease .3s;
+			-o-transition:all .3s ease .5s;
+			transition:all .3s ease .3s;
+		a:hover
+			border-radius 90%
+			margin .5em
+			padding .5em
+			-webkit-transition:all .3s ease;
+			-moz-transition:all .3s ease;
+			-o-transition:all .3s ease;
+			transition:all .3s ease;
+			*/
+nav
+	background #363636
+	margin 0
+	text-align center
+	display none
+	
+	ul
+		margin 0
+		text-align center
+
+		li 
+			display inline-block
+			list-style none
+			padding 1em 0
+			vertical-align top
+			
+			a 
+				background transparent
+				color white
+				font-family 'Dosis', sans-serif
+				margin -2px
+				padding 1em
+				text-decoration none
+				-webkit-transition:all .5s ease .5s;
+				-moz-transition:all .5s ease .5s;
+				-o-transition:all .5s ease .5s;
+				transition:all .5s ease .5s;
+				
+			a:hover
+				background #292929
+				padding 1em
+				-webkit-transition:all .5s ease;
+				-moz-transition:all .5s ease;
+				-o-transition:all .5s ease;
+				transition:all .5s ease;
+
+#slide
+	display none
+	width 100%
+/*Aquí está el código del slide*/
+h3
+	font 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif
+	text-align center
+	color #fff
+
+.events
+	list-style none
+
+.callbacks_container
+	margin-bottom 50px
+	position relative
+	float left
+	width 100%
+
+.callbacks
+	position relative
+	list-style none
+	overflow hidden
+	width 100%
+	padding 0
+	margin 0
+
+.callbacks li
+	position absolute
+	width 100%
+	left 0
+	top 0
+
+.callbacks img
+	display block
+	position relative
+	z-index 1
+	height 60%
+	width 100%
+	border 0
+/*Personalizado*/
+.callbacks .caption
+	display block
+	position absolute
+	z-index 2
+	font-size 20px
+	text-shadow none
+	color #fff
+	background #000
+	background rgba(244,123,148, .8)
+	left 0
+	right 0
+	top 470%
+	border-top-right-radius 20px
+	width 30%
+	padding 10px 20px
+	margin 0
+	max-width none
+/*sin personalizar
+.callbacks .caption
+	display block
+	position absolute
+	z-index 2
+	font-size 20px
+	text-shadow none
+	color #fff
+	background #000
+	background rgba(0,0,0, .8)
+	left 0
+	right 0
+	bottom 0
+	padding 10px 20px
+	margin 0
+	max-width none
+	*/
+
+.callbacks_nav
+	position absolute
+	-webkit-tap-highlight-color rgba(0,0,0,0)
+	top 52%
+	left 0
+	opacity 0.7
+	z-index 3
+	text-indent -9999px
+	overflow hidden
+	text-decoration none
+	height 61px
+	width 38px
+	background transparent url("../themes/themes.gif") no-repeat left top
+	margin-top -45px
+
+.callbacks_navactive
+	opacity 1.0
+
+.callbacks_nav.next
+	left auto
+	background-position right top
+	right 0
+
+#slider3-pager a
+	display inline-block
+
+#slider3-pager img
+	float left
+
+#slider3-pager .rslides_here a
+	background transparent
+	box-shadow 0 0 0 2px #666
+
+#slider3-pager a
+	padding 0
+
+.rslides
+ 	list-style none
+ 	margin 0
+ 	overflow hidden
+ 	padding 0
+ 	position relative
+ 	width 100%
+
+.rslides li
+ 	-webkit-backface-visibility hidden
+ 	display none
+ 	left 0
+ 	position absolute
+ 	top 0
+ 	width 100%
+
+.rslides li:first-child
+ 	display block
+ 	float left
+ 	position relative
+
+.rslides img
+	border 0
+	display block
+	float left
+	height auto
+	width 100%
+/*Fin código del slide*/
+.activo
+	background #292929
+	padding 1em
+.fb, .mail, .yt
+	background transparent
+.fb:hover
+	background blue
+.mail:hover
+	background #F47BA8
+.yt:hover
+	background red
+#columna_2
+	background blue
+	content ""
+	padding 1em
+#columna_3
+	background #454234
+	content ""
+	padding 1em
+#columna_4
+	background #569865
+	content ""
+	padding 1em
